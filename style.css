@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+nav .container .logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav .container .logo .haat-title {
+    color: slateblue;
+}
+
+.menu {
+    font-size: 1.3rem;
+}
+
+.icon {
+    font-size: 26px;
+    text-decoration: none;
+}
+
+/* carousel style */
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 80%;
+}
+
+
+.carousel-item h3{
+    color: lightgoldenrodyellow;
+    font-size: 52px;
+}
+
+.carousel-item p {
+    font-size: 26px;
+    color: linen;
+}
+
+ /* media query for tablet */
+
+ @media only screen 
+ and (min-device-width: 768px) 
+ and (max-device-width: 1024px) 
+ and (-webkit-min-device-pixel-ratio: 1) {
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+    }
+
+    .carousel .carousel-item .carousel-caption {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel-item h3{
+        color: lightgoldenrodyellow;
+        font-size: 32px;
+    }
+    
+    .carousel-item p {
+        font-size: 16px;
+        color: linen;
+    }
+ }
+
+ /* media query for mobile */
+
+ @media (max-width: 767.98px) 
+ {
+
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: fit-content;
+    }
+
+    .carousel-item h3{
+        color: rgb(182, 44, 31);
+        font-size: 36px;
+        margin-bottom: 0;
+        padding-bottom: 60px;
+    }
+}
+
+/* banner section style */
+.banner {
+    margin-top: 20%;
+    background-color: rgba(224, 245, 39, 0.3);
+    border-radius: 10px;
+}
+
+.banner>p {
+    font-size: 1.5rem;
+    color: rgb(82, 87, 12);
+}
+
+/* banner cards  starts*/
+.card img {
+    max-height: 275px;
+    width: auto;
+}
+
+.card .card-body h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card .card-body p {
+    font-size: 1.2rem;
+    color: rgb(74, 76, 78);
+}
+
+/* banner cards  ends*/
+
+/* footer style starts*/
+
+.footer-section {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.owner {
+    color: darkred;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* footer style ends*/
